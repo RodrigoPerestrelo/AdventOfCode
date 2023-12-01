@@ -44,15 +44,13 @@ In this example, the calibration values are 29, 83, 13, 24, 42, 14, and 76. Addi
 What is the sum of all of the calibration values?
 
 <details><summary><b>Part 1</b></summary>
-Started at: 06:00<br>
-Finished at: 06:08<br>
-Answer: 52193<br>
+Time: 06:08<br>
+Rank: 52193<br>
 </details>
 
 <br>
 
 <details><summary><b>Part 2</b></summary>
-Started at: 06:10<br>
-Finished at: 06:48<br>
-Answer: 33886<br>
+Time: 06:48<br>
+Rank: 33886<br>
 </details>
