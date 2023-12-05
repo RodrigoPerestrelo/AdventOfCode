@@ -42,15 +42,3 @@ zoneight234
 In this example, the calibration values are 29, 83, 13, 24, 42, 14, and 76. Adding these together produces 281.
 
 What is the sum of all of the calibration values?
-
-<details><summary><b>Part 1</b></summary>
-Time: 06:08<br>
-Rank: 52193<br>
-</details>
-
-<br>
-
-<details><summary><b>Part 2</b></summary>
-Time: 06:48<br>
-Rank: 33886<br>
-</details>
