@@ -19,19 +19,19 @@ fn treat_line(line: &str) -> i32 {
         let game: Vec<&str> = game_info.split(';').collect();
 
         for round in game {
-            let partes_jogo: Vec<&str> = round.split(',').collect();
+            let pieces_game: Vec<&str> = round.split(',').collect();
 
         let mut count_green = 0;
         let mut count_blue = 0;
         let mut count_red = 0;
 
-            for parte in partes_jogo {
-                let elemento = parte.trim();
+            for piece in pieces_game {
+                let element = piece.trim();
 
-                let (numero_str, cor) = elemento.split_once(' ').unwrap_or(("", ""));
-                let number = numero_str.parse::<usize>().unwrap_or_default();
+                let (number_str, colour) = element.split_once(' ').unwrap_or(("", ""));
+                let number = number_str.parse::<usize>().unwrap_or_default();
 
-                match cor {
+                match colour {
                     "green" => count_green += number,
                     "blue" => count_blue += number,
                     "red" => count_red += number,
